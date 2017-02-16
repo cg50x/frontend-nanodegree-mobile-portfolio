@@ -40,6 +40,18 @@ form {
   display: flex;
 }
 
+#randomPizzas.size-1 .randomPizzaContainer{
+  width: 25%;
+}
+
+#randomPizzas.size-2 .randomPizzaContainer{
+  width: 30%;
+}
+
+#randomPizzas.size-3 .randomPizzaContainer{
+  width: 50%;
+}
+
 .randomPizzaContainer:after {
   content: "";
   display: table;
